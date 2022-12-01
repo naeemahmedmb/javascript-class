@@ -23,12 +23,31 @@
 //             //case :
             //case :
         //}
-        for (var i= 1; i<= 10; i++){
-            document.write(i + "<br>");
-        }
 
-        var i = 1;
-        while(i<11){
-            document.write(i + "<br>");
-            i++;
-        }
+        //lopping Added
+    //     for (var i= 1; i<= 10; i++){
+    //         document.write(i + "<br>");
+    //     }
+
+    //     var i = 1;
+    //     while(i<11){
+    //         document.write(i + "<br>");
+    //         i++;
+    //     }
+
+    //     do{
+    //         document.write(i+ "<br>");
+    //     i++;
+    // }
+    //     while(i <=12)
+
+    // for(var i = 2; i <= 10; i++){
+    //     if(i==5)
+    //     document.write(i + "<br>");
+    // }
+
+    function square(){
+        var num = 16;
+    document.write ("<br/> Result Is :" num*num);
+    square();
+    }
